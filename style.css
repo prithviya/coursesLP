@@ -131,6 +131,28 @@
     font-family: 'Montserrat', sans-serif;
     color: var(--blue);
 }
+.custom-bg
+{
+    background-image: url(./image/placement/course.png);
+    background-size: cover;
+}
+.custom-desc-card
+{
+    background: #fff;
+    color: #333;
+    padding: 25px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 2px 0 var(--orange);
+}
+.custom-desc-card:hover
+{
+    background: #c33764; 
+    background: -webkit-linear-gradient(to right, #c33764, #1d2671); 
+    background: linear-gradient(to right, #c33764, #1d2671);
+    color: #fff;
+}
 /* icon */
 .custom-course-card
 {
