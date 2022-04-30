@@ -328,5 +328,8 @@ button {
    button:hover {
     color: var(--white);
    }
-   
+.custom-banner-title
+{
+    color: var(--blue);
+}
 
